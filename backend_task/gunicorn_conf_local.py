@@ -15,7 +15,7 @@ daemon = False
 
 preload_app = True
 
-capture_output=True
+capture_output=False
 
 LOGFILE_INTERVAL_UNIT='midnight'
 LOGFILE_INTERVAL_COUNT=1
