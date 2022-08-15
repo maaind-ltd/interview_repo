@@ -3,7 +3,7 @@
 import os
 from django.conf import settings
 from django.urls import re_path
-from DjangoProject.App.endpoints.voice_activity_detection import VoiceActivityDetectionEndpoint
+from App.endpoints.voice_activity_detection import VoiceActivityDetectionEndpoint
 
 
 import warnings

@@ -12,13 +12,16 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import json
 import os
-
 from dotenv import find_dotenv, load_dotenv
 from six.moves.urllib.request import urlopen
+
+load_dotenv(find_dotenv())
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+ROOT_URLCONF = "DjangoProject.urls"
+SECRET_KEY = "This is a very secret key"
 # ::::::::::::::::: #
 #  v  constants  v  #
 # ::::::::::::::::: #
